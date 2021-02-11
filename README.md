@@ -118,5 +118,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The photos used in this site were obtained from ...
 - [Pexels](https://www.pexels.com/photo/donuts-and-bagel-display-205961/)  -  Photo by Igor Ovsyannykov from Pexels
 ### Acknowledgements
-
+- Got some understanding of the bootstrap class for inline list items from - [stackoverflow](https://stackoverflow.com/questions/45650184/bootstrap-4-inline-list/45650251)
 - I received inspiration for this project from X
