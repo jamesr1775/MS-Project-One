@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*********************** Colors Section ***********************/
+.header-nav-menu-color{
+    background-color:#FFAEBC;
+}
 
-
+.footer-menu-color{
+    background-color: #96c8e6;
+}
 
 /*********************** Header Section ***********************/
 header{
@@ -22,9 +27,6 @@ header{
     /* -webkit-transition: all .5s ease-in-out; */
 }
 
-#main-nav-bar{
-    background-color:#FFAEBC;
-}
 .menu-bar-list{
     padding-top: 70px;
     padding-right: 15px;
@@ -58,6 +60,7 @@ header{
 .hero-image{
     min-height: 400px;
     width: 100%;
+    margin-bottom: 10px;
     background-image: url("../images/pexels-igor-ovsyannykov-205961.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -75,12 +78,13 @@ header{
 .uppercase{
     text-transform: uppercase;
 }
-
+.text-center{
+    text-align: center;
+}
 
 /*********************** Footer Section ***********************/
 
 #footer-details{
-    background-color: rgba(150, 200, 230);
     padding: 15px;
 }
 .social{
@@ -110,6 +114,7 @@ header{
 }
 
 .social-media-text{
+    font-family: "Exo", sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 0;
@@ -117,6 +122,62 @@ header{
     text-align: center;
     float: left;
 }
+
+/*********************** Body Section ***********************/
+
+.food-prep{
+    background-color: rgb(150, 200, 230);
+    height: 250px;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info-text-block{
+    background-color: rgba(255, 175, 190, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px;
+    color: snow;
+    box-shadow: 10px 10px rgba(150, 200, 230);
+}
+
+.event-image{
+    background-color: rgb(150, 200, 230);
+    height: 250px;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+    background-image: url("../images/pexels-jeswin-thomas-5570880.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+.company-mission-image{
+    background-color: rgb(150, 200, 230);
+    height: 250px;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+    background-image: url("../images/pexels-vaibhav-jadhav-3218467.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.event-mission-header{
+    color:  rgb(60, 170, 230);
+    text-decoration: underline;
+    text-shadow:1px 1px slategray;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Exo", sans-serif;
+    margin: 5px;
+}
+
 
 
 /*********************** Media Queries ***********************/
@@ -135,8 +196,52 @@ header{
         padding-top: 5px;
         padding-left: 10px;
     }
-    /* #main-nav-bar{
-        height: 150px;
-    } */
+    .quality-block-mobile{
+        background-color: rgb(150, 200, 230);
+        height: 250px;
+        width: 100%;
+        margin: 10px 0px 10px;
+        background-image: url("../images/pexels-vaibhav-jadhav-3218467.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 2;
+    }
+    .event-block-mobile{
+        height: 250px;
+        width: 100%;
+        margin: 10px 0px 10px;
+        background-image: url("../images/pexels-jeswin-thomas-5570880.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 2;
+        float: left;
+    }
+    .info-text-block{
+        background-color: rgba(20, 20, 20, 0.5);
+        margin: 0;
+        font-size: 20px;
+        color: snow;
+        box-shadow:none;
+    }
+    .event-mission-header{
+        color:  snow;
+        text-shadow:2px 2px slategray;
+    }
+    .event-anchor{
+        color: blue;
+    }
+}
+
+@media screen and (min-width:992px){
+
+    .info-text-block{
+        min-height: 200px;
+        font-size: 22px;
+        word-spacing: 2px;
+        padding: 20px;
+    }
 
 }
+
