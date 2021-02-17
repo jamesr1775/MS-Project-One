@@ -15,16 +15,12 @@ header{
     font-weight: 500;
 }
 .company-logo{
-
     background: url("../images/DonutDisturbLogo.png");
     min-height: 150px;
     width: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    /* transition: all .5s ease-in-out; */
-    /* -moz-transition: all .5s ease-in-out; */
-    /* -webkit-transition: all .5s ease-in-out; */
 }
 
 .menu-bar-list{
@@ -51,11 +47,6 @@ header{
     color:ghostwhite;
     float: right;
 }
-/* #navBarDropDown li a i{
-
-} */
-
-
 
 .hero-image{
     min-height: 400px;
@@ -177,7 +168,32 @@ header{
     font-family: "Exo", sans-serif;
     margin: 5px;
 }
+.review-section-header{
+    color:  rgb(60, 170, 230);
+    text-decoration: underline;
+    text-shadow:1px 1px slategray;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Exo", sans-serif;
+    margin: 10px;
+}
 
+.reviewer-image{
+    margin: 10px;
+    min-height: 100px;
+    width: 100%;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+}
+.reviewer-quote{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(150, 200, 230,1);
+    font-family: "Roboto", sans-serif;
+    color: snow;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+}
 
 
 /*********************** Media Queries ***********************/
@@ -231,6 +247,9 @@ header{
     }
     .event-anchor{
         color: blue;
+    }
+    .reviewer-image{
+        margin: 40px 0px 40px 0px;
     }
 }
 
