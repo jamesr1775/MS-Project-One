@@ -9,6 +9,14 @@
     background-color: #96c8e6;
 }
 
+.our-donuts-bg-color{
+    background-color:#FBE7C6;
+}
+
+.hero-video-bg-color{
+    background-color:#FBE7C6;
+}
+
 /*********************** Header Section ***********************/
 header{
     font-family: "Roboto", sans-serif;
@@ -178,7 +186,67 @@ header{
     margin: 5px;
 }
 
+/*********************** Our Donuts ***********************/
+.our-donuts-container{
+    padding-bottom: 20px;
+}
+.hero-video{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.hero-video-container{
+    margin: 20px 0px 20px;
+}
+.single-donut-image{
+    min-height: 200px;
+    width: 200px;
+}
+.our-donuts-row{
+    padding-bottom: 20px;
+}
+.donut-block {
+    margin-top: 20px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 90%
+}
+.donut-name-header{
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    color: darkslategrey;
+}
+.donut-info {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    color: slategray;
+}
 
+.allergan-info{
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    font-family: "Exo", sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    color: slategray;
+}
+
+.horizontal-divider{
+    background-color: #FBE7C6;
+}
+.horizontal-divider hr{
+    margin: 0;
+    padding: 0
+}
 
 /*********************** Media Queries ***********************/
 @media screen and (max-width:576px){
@@ -232,6 +300,10 @@ header{
     .event-anchor{
         color: blue;
     }
+    .single-donut-image{
+        min-height: 200px;
+        width: 80%;   
+    }
 }
 
 @media screen and (min-width:992px){
@@ -242,6 +314,11 @@ header{
         word-spacing: 2px;
         padding: 20px;
     }
-
+    
 }
 
+@media screen and (min-width:1170px){
+    .hero-video{
+        width: 60%;
+    }
+}
