@@ -23,16 +23,12 @@ header{
     font-weight: 500;
 }
 .company-logo{
-
     background: url("../images/DonutDisturbLogo.png");
     min-height: 150px;
     width: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    /* transition: all .5s ease-in-out; */
-    /* -moz-transition: all .5s ease-in-out; */
-    /* -webkit-transition: all .5s ease-in-out; */
 }
 
 .menu-bar-list{
@@ -69,8 +65,7 @@ header{
     background-size: cover;
     transition: all 1.5s ease-in;
     -moz-transition: all 1.5s ease-in;
-    -webkit-transition: all 1.5s ease-in;
-    
+    -webkit-transition: all 1.5s ease-in; 
 }
 
 /*********************** General Padding/Margins/Text ***********************/
@@ -188,6 +183,7 @@ header{
     font-family: "Exo", sans-serif;
     margin: 10px;
 }
+
 .reviewer-image{
     margin: 10px;
     min-height: 100px;
@@ -277,7 +273,6 @@ header{
     font-weight:400;
     color: slategray;
 }
-
 .horizontal-divider{
     background-color: #FBE7C6;
 }
@@ -344,6 +339,8 @@ header{
     .single-donut-image{
         min-height: 200px;
         width: 80%;   
+    .reviewer-image{
+        margin: 40px 0px 40px 0px;
     }
 }
 
