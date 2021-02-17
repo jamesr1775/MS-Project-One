@@ -59,12 +59,6 @@ header{
     color:ghostwhite;
     float: right;
 }
-/* #navBarDropDown li a i{
-
-} */
-
-
-
 .hero-image{
     min-height: 400px;
     width: 100%;
@@ -185,6 +179,50 @@ header{
     font-family: "Exo", sans-serif;
     margin: 5px;
 }
+.review-section-header{
+    color:  rgb(60, 170, 230);
+    text-decoration: underline;
+    text-shadow:1px 1px slategray;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Exo", sans-serif;
+    margin: 10px;
+}
+.reviewer-image{
+    margin: 10px;
+    min-height: 100px;
+    width: 100%;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+}
+.reviewer-quote{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(150, 200, 230,1);
+    font-family: "Roboto", sans-serif;
+    color: snow;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+    font-weight: 600;
+    font-family: "Exo", sans-serif;
+    margin: 10px;
+}
+.reviewer-image{
+    margin: 10px;
+    min-height: 100px;
+    width: 100%;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+}
+.reviewer-quote{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(150, 200, 230,1);
+    font-family: "Roboto", sans-serif;
+    color: snow;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+}
 
 /*********************** Our Donuts ***********************/
 .our-donuts-container{
@@ -280,7 +318,10 @@ header{
         width: 100%;
         margin: 10px 0px 10px;
         background-image: url("../images/pexels-jeswin-thomas-5570880.jpg");
-        background-position: center;
+     
+    .reviewer-image{
+        margin: 40px 0px 40px 0px;
+    }   background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 2;
