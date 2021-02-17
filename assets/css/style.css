@@ -281,6 +281,19 @@ header{
     padding: 0
 }
 
+/*********************** Contact ***********************/
+.location-header{
+    margin-top: 20px;
+}
+.location-info{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.map{
+    height: 350px;
+    width: 100%;
+}
 /*********************** Media Queries ***********************/
 @media screen and (max-width:576px){
     .company-logo{
@@ -341,7 +354,6 @@ header{
         margin: 40px 0px 40px 0px;
     }
 }
-
 @media screen and (min-width:992px){
 
     .info-text-block{
@@ -350,9 +362,12 @@ header{
         word-spacing: 2px;
         padding: 20px;
     }
-    
 }
-
+@media screen and (max-width:992px){
+    .map{
+        height: 450px;
+    }
+}
 @media screen and (min-width:1170px){
     .hero-video{
         width: 60%;
