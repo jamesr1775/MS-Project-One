@@ -335,7 +335,8 @@ header{
     }
     .single-donut-image{
         min-height: 200px;
-        width: 80%;   
+        width: 80%; 
+    }
     .reviewer-image{
         margin: 40px 0px 40px 0px;
     }
