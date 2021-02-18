@@ -147,3 +147,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Got some understanding of the bootstrap class for inline list items from - [stackoverflow](https://stackoverflow.com/questions/45650184/bootstrap-4-inline-list/45650251).
 - Used bootstrap forms and mashed some examples together for my contact form - [getbootstrap](https://getbootstrap.com/docs/4.0/components/forms/).
 - I received inspiration for this project from [The Rolling Donut](https://www.therollingdonut.ie/).
+- Got the idea of using box shadows for some of the elements on the home page from [freefrontend](https://freefrontend.com/css-border-examples/).
+- Good reminder about the grid model from [w3schools](https://www.w3schools.com/bootstrap/bootstrap_grid_large.asp).
+- Needed to make some text more visible when images are behind the text. Used some shadows and got some information from [w3schools](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-shadow).
+- Got info about hiding elements on screen sizes from [w3schools] (https://getbootstrap.com/docs/5.0/utilities/display/).
+- Had some trouble with horizontal dividers adding white space above the divider line [stackoverflow](https://stackoverflow.com/questions/41411155/does-bootstrap-4-have-a-built-in-horizontal-divider). Got some info on bootstraps style for the **hr** element but figured out to set margin and padding to 0 via the chrome tools to get what I wanted.
