@@ -57,24 +57,42 @@ A Donut Store located in Dublin City Centre
     2. This page will provide the store address alongside a map widget that shows our location.
     3. It will provide an business email address and phone number to use alternatively.
     4. The page will also provide an email address for career opportunities.  
+    5. There will be a section with the store opening times for customers.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- NavBar- The navbar is responsive and allows the user to navigate the website intuitively. The company logo is also present and can be used to bring the user back to the home page if clicked.
+- The Footer presents the user with the company's social media accounts, and states copyright info also.
+- The Home page [Home Page](https://github.com/jamesr1775/MS-Project-One/blob/master/index.html) and the [Our Donuts Page](https://github.com/jamesr1775/MS-Project-One/blob/master/ourDonuts.html) have a hero image / video that are both eye catching and draw the customers attention.
+- All of the website pages are responsive and the elements fold appropiately for mobile, tablet and desktop screen sizes.
+- The color scheme was selected using [Canva](https://www.canva.com/colors/color-palettes/pastel-dreams/). The theme was selected to fit the donut store.
+- Our Donuts gallery and information is presented and is responsive along with relevant allergens.
+- The [Contact Page](https://github.com/jamesr1775/MS-Project-One/blob/master/contact.html) provides the customer with the stores location, opening times, a contact form and other relevant contact information.
 
 ### Features Left to Implement
-- Another feature idea
+- A Basket and ability to order from the website
+- Create your own donut flavour from a list of options.
+- A Subscription service / offer using a modal.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The Technologies used in this project are the following:
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+1. [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes
+2. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the main nav bar and footer links for improving UX.
+3. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Roboto' and the 'Exo' font into the style.css.
+4. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used throughout to add icons a more pleasing UX.
+5. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+6. [GitPod](https://gitpod.io/)
+    - GitPod was used as my Editor/ Development Environment
+7. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
 
 
 ## Testing
@@ -123,6 +141,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - [Pexels](https://www.pexels.com/photo/food-party-sugar-colorful-5570880/)  - Photo by Jeswin Thomas from Pexels
 - [Pixabay](https://pixabay.com/photos/donuts-pastries-kringel-cake-candy-4633040/) - Photo by Alexas_Fotos from Pixabay
 - [Pexels](https://www.pexels.com/video/food-hands-sugar-colorful-4686906/)  - Video by cottonbro from Pexels
+- [Canva](https://www.canva.com/colors/color-palettes/pastel-dreams/)   - Color theme idea for the website
 
 ### Acknowledgements
 - Got some understanding of the bootstrap class for inline list items from - [stackoverflow](https://stackoverflow.com/questions/45650184/bootstrap-4-inline-list/45650251)
