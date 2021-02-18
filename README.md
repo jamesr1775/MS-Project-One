@@ -34,9 +34,9 @@ A Donut Store located in Dublin City Centre
 7. As a Job seeker, I want find information to contact/apply for a job at the company, so I may get hired.
 
 ### Wireframe mockups: 
-- [Home](https://imgur.com/gfRzbZR)
-- [Our Donuts Gallery](https://imgur.com/ScpSXN8)
-- [Contact Us](https://imgur.com/UcMB8kd)
+- [Home](https://github.com/jamesr1775/MS-Project-One/blob/master/assets/wireframes/Home.png)
+- [Our Donuts Gallery](https://github.com/jamesr1775/MS-Project-One/blob/master/assets/wireframes/Our_Donuts.png)
+- [Contact Us](https://github.com/jamesr1775/MS-Project-One/blob/master/assets/wireframes/Contact_Us.png)
 
 ## Features
 1. Every page should have a responsive **navigation bar** with the company name and logo in the top left.
