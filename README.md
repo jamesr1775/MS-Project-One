@@ -112,12 +112,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+-
 
 ### Media
 - The photos used in this site were obtained from ...
 - [Pexels](https://www.pexels.com/photo/donuts-and-bagel-display-205961/)  -  Photo by Igor Ovsyannykov from Pexels
-- [Pexels](https://www.pexels.com/photo/pizza-kitchen-recipe-rolling-pin-9510/)  - Photo by Skitterphoto from Pexels
+- [Pexels](https://www.pexels.com/photo/woman-wearing-sweater-covering-her-eyes-with-doughnuts-2234709/)  - Photo by Mahima from Pexels
+- [Pexels](https://www.pexels.com/photo/close-up-photography-of-man-wearing-sunglasses-1212984/)  - Photo by Daniel Xavier from Pexels
+- [Pexels](https://www.pexels.com/photo/man-preparing-dough-for-bread-3218467/)  - Photo by Vaibhav Jadhav from Pexels
+- [Pexels](https://www.pexels.com/photo/food-party-sugar-colorful-5570880/)  - Photo by Jeswin Thomas from Pexels
+- [Pixabay](https://pixabay.com/photos/donuts-pastries-kringel-cake-candy-4633040/) - Photo by Alexas_Fotos from Pixabay
+- [Pexels](https://www.pexels.com/video/food-hands-sugar-colorful-4686906/)  - Video by cottonbro from Pexels
+
 ### Acknowledgements
 - Got some understanding of the bootstrap class for inline list items from - [stackoverflow](https://stackoverflow.com/questions/45650184/bootstrap-4-inline-list/45650251)
-- I received inspiration for this project from X
+- Used bootstrap forms and mashed some examples together for my contact form - [getbootstrap](https://getbootstrap.com/docs/4.0/components/forms/) 
+- I received inspiration for this project from The Rolling Donut https://www.therollingdonut.ie/

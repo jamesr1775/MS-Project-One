@@ -8,7 +8,9 @@
 .footer-menu-color{
     background-color: #96c8e6;
 }
-
+.home-page-bg-color{
+    background-color:#FBE7C6;
+}
 .our-donuts-bg-color{
     background-color:#FBE7C6;
 }
@@ -58,7 +60,7 @@ header{
 .hero-image{
     min-height: 400px;
     width: 100%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     background-image: url("../images/pexels-igor-ovsyannykov-205961.jpg");
     background-position: center;
     background-repeat: no-repeat;
