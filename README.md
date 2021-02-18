@@ -1,7 +1,7 @@
 # Donut Disturb
 
-A Donut Store located in Dublin City Centre
- 
+A Donut Store located in Dublin City Centre whose goal is to create and sell the best, most delicious desert in Dublin.
+The website is deployed and can be viewed here [Donut Disturb](https://jamesr1775.github.io/MS-Project-One/).
 ## UX
 
 ### Project Goals
@@ -22,7 +22,7 @@ A Donut Store located in Dublin City Centre
 ### Customer Goals
     * Allow the customer to see our range of products, prices and ingredients.
     * Allow customers with allergys to see a products ingredients and in general preparation and cooking steps.
-    * offer a range of products that can suit the majority of potential customers
+    * offer a range of products that can suit the majority of potential customers.
 
 ### User Stories
 1. As a potential Customer that loves Donuts/ Pastries, I would like to see Current Donuts and prices, so that I can know what to expect when I visit the store.
@@ -44,12 +44,12 @@ A Donut Store located in Dublin City Centre
 3. Every page features its own **hero image** at the top, detailing a the cafe and or products that we sell.
 4. The images and how they are displayed will be **responsive** for different **screen resolutions**.
 ### Home
-    1. A Hero image of the Shop will be under the navigation bar
+    1. A Hero image of the Shop will be under the navigation bar.
     2. There will be information on the companys passion and skills along with pictures to compliment our products.
     3. The Home page will contain recent customer reviews.
     4. There will be a disclaimer about the ingredients  we use and our kitchen standards particularly for allergies.
 ### Our Donuts Gallery
-    1. The gallery page will contain rows and columns of images of all our products
+    1. The gallery page will contain rows and columns of images of all our products.
     2. The ingredients, allergies and pricing information will be displayed next to the  relevant product.
     3. The gallery will be responsive to different screen resolutions and clearly show product information such as allergies and pricing clearly particularly on smaller screens. 
 ### Contact Us    
@@ -69,7 +69,7 @@ A Donut Store located in Dublin City Centre
 - The [Contact Page](https://github.com/jamesr1775/MS-Project-One/blob/master/contact.html) provides the customer with the stores location, opening times, a contact form and other relevant contact information.
 
 ### Features Left to Implement
-- A Basket and ability to order from the website
+- A Basket and ability to order from the website.
 - Create your own donut flavour from a list of options.
 - A Subscription service / offer using a modal.
 
@@ -80,7 +80,7 @@ The Technologies used in this project are the following:
 1. [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the wireframes
+    - Balsamiq was used to create the wireframes.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the main nav bar and footer links for improving UX.
 3. [Google Fonts:](https://fonts.google.com/)
@@ -90,7 +90,7 @@ The Technologies used in this project are the following:
 5. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive.
 6. [GitPod](https://gitpod.io/)
-    - GitPod was used as my Editor/ Development Environment
+    - GitPod was used as my Editor/ Development Environment.
 7. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 
@@ -134,16 +134,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
-- [Pexels](https://www.pexels.com/photo/donuts-and-bagel-display-205961/)  -  Photo by Igor Ovsyannykov from Pexels
-- [Pexels](https://www.pexels.com/photo/woman-wearing-sweater-covering-her-eyes-with-doughnuts-2234709/)  - Photo by Mahima from Pexels
-- [Pexels](https://www.pexels.com/photo/close-up-photography-of-man-wearing-sunglasses-1212984/)  - Photo by Daniel Xavier from Pexels
-- [Pexels](https://www.pexels.com/photo/man-preparing-dough-for-bread-3218467/)  - Photo by Vaibhav Jadhav from Pexels
-- [Pexels](https://www.pexels.com/photo/food-party-sugar-colorful-5570880/)  - Photo by Jeswin Thomas from Pexels
-- [Pixabay](https://pixabay.com/photos/donuts-pastries-kringel-cake-candy-4633040/) - Photo by Alexas_Fotos from Pixabay
-- [Pexels](https://www.pexels.com/video/food-hands-sugar-colorful-4686906/)  - Video by cottonbro from Pexels
-- [Canva](https://www.canva.com/colors/color-palettes/pastel-dreams/)   - Color theme idea for the website
+- [Pexels](https://www.pexels.com/photo/donuts-and-bagel-display-205961/)  -  Photo by Igor Ovsyannykov from Pexels.
+- [Pexels](https://www.pexels.com/photo/woman-wearing-sweater-covering-her-eyes-with-doughnuts-2234709/)  - Photo by Mahima from Pexels.
+- [Pexels](https://www.pexels.com/photo/close-up-photography-of-man-wearing-sunglasses-1212984/)  - Photo by Daniel Xavier from Pexels.
+- [Pexels](https://www.pexels.com/photo/man-preparing-dough-for-bread-3218467/)  - Photo by Vaibhav Jadhav from Pexels.
+- [Pexels](https://www.pexels.com/photo/food-party-sugar-colorful-5570880/)  - Photo by Jeswin Thomas from Pexels.
+- [Pixabay](https://pixabay.com/photos/donuts-pastries-kringel-cake-candy-4633040/) - Photo by Alexas_Fotos from Pixabay.
+- [Pexels](https://www.pexels.com/video/food-hands-sugar-colorful-4686906/)  - Video by cottonbro from Pexels.
+- [Canva](https://www.canva.com/colors/color-palettes/pastel-dreams/)   - Color theme idea for the website.
 
 ### Acknowledgements
-- Got some understanding of the bootstrap class for inline list items from - [stackoverflow](https://stackoverflow.com/questions/45650184/bootstrap-4-inline-list/45650251)
-- Used bootstrap forms and mashed some examples together for my contact form - [getbootstrap](https://getbootstrap.com/docs/4.0/components/forms/) 
-- I received inspiration for this project from The Rolling Donut https://www.therollingdonut.ie/
+- Got some understanding of the bootstrap class for inline list items from - [stackoverflow](https://stackoverflow.com/questions/45650184/bootstrap-4-inline-list/45650251).
+- Used bootstrap forms and mashed some examples together for my contact form - [getbootstrap](https://getbootstrap.com/docs/4.0/components/forms/).
+- I received inspiration for this project from [The Rolling Donut](https://www.therollingdonut.ie/).
