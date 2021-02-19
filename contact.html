@@ -10,8 +10,8 @@
     <title>Donut Disturb</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light navbar-expand-sm header-nav-menu-color">
+    <header class="header-nav-menu-bg-color">
+        <nav id="header-nav-bar" class="navbar navbar-light navbar-expand-sm">
             <a href="index.html" class="company-logo"></a>
             <button class="nav-bar-button navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarDropDown" aria-controls="navBarDropDown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,66 +31,68 @@
             </div>
         </nav>
     </header>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 col-xs-12">
-                <h3 class="uppercase text-center location-header">Store Opening Times:</h3>
-                <p class="location-info">8:00 to 19:00 Monday - Friday<br>10:00 - 17:00 Saturday and Sunday,<br>Drop in our store below anytime during our opening times</p>
-                <h3 class="uppercase text-center location-header">Location:</h3>
-                <p class="location-info">The Reflector, Hanover Quay,<br>Dublin Docklands,<br>Dublin</p>
-            </div>
-            <div class="col-md-8 col-xs-12">
-                <div id="map-wrapper">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1190.9435674445501!2d-6.238418849669838!3d53.345276544849256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670eed5bfc6a7b%3A0x2c269f040c9e5d4c!2sDiving%20Bell!5e0!3m2!1sen!2sie!4v1613583705180!5m2!1sen!2sie" class="map" aria-hidden="false"></iframe>
+    <main>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <h3 class="uppercase text-center location-header">Store Opening Times:</h3>
+                    <p class="location-info">8:00 to 19:00 Monday - Friday<br>10:00 - 17:00 Saturday and Sunday,<br>Drop in our store below anytime during our opening times</p>
+                    <h3 class="uppercase text-center location-header">Location:</h3>
+                    <p class="location-info">The Reflector, Hanover Quay,<br>Dublin Docklands,<br>Dublin</p>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                    <div id="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1190.9435674445501!2d-6.238418849669838!3d53.345276544849256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670eed5bfc6a7b%3A0x2c269f040c9e5d4c!2sDiving%20Bell!5e0!3m2!1sen!2sie!4v1613583705180!5m2!1sen!2sie" class="map" aria-hidden="false"></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="row">
-                    <h3 class="uppercase text-center">Get in touch with us below for orders and business enquiries</h3>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <h3 class="uppercase text-center">Get in touch with us below for orders and business enquiries</h3>
+                    </div>
+                    <form>
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-center">Email:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="staticEmail"  placeholder="email@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputSubject" class="col-sm-2 col-form-label text-center">Email Subject:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="subject"  placeholder="subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="emailContent" class="col-sm-2 col-form-label text-center">Email Content:</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <button type="submit" class="btn btn-primary mb-2 mt-2">Send Message</button>
+                        </div>
+                    </form>
                 </div>
-                <form>
-                    <div class="form-group row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label text-center">Email:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="staticEmail"  placeholder="email@example.com" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputSubject" class="col-sm-2 col-form-label text-center">Email Subject:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="subject"  placeholder="subject" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="emailContent" class="col-sm-2 col-form-label text-center">Email Content:</label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 text-center">
-                        <button type="submit" class="btn btn-primary mb-2 mt-2">Send Message</button>
-                    </div>
-                </form>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <h3 class="uppercase text-center location-header">Our Contact Information</h3>
-                <p class="location-info">Email: info@donutdisturb.com<br>Phone: 0811234567<br>Support available 9:00 - 18:00 Weekdays & Saturday</p>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h3 class="uppercase text-center location-header">Our Contact Information</h3>
+                    <p class="location-info">Email: info@donutdisturb.com<br>Phone: 0811234567<br>Support available 9:00 - 18:00 Weekdays & Saturday</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h3 class="uppercase text-center location-header">Want to work for us?</h3>
+                    <p class="location-info">Email your CV to @<br>careers@donutdisturb.com</p>
+                </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <h3 class="uppercase text-center location-header">Want to work for us?</h3>
-                <p class="location-info">Email your CV to @<br>careers@donutdisturb.com</p>
-            </div>
-        </div>
-    </section>
-    <footer class="footer-menu-color">
+        </section>
+    </main>
+    <footer class="footer-menu-bg-color">
         <div class="row">
             <div class="col-12 social">
                 <div class="row">
