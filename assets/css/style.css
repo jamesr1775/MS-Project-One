@@ -23,7 +23,7 @@ header{
     padding-top: 0; 
 }
 .company-logo{
-    background: url("../images/DonutDisturbLogo.png");
+    background: url("../images/donut-disturb-logo.png");
     min-height: 100px;
     width: 200px;
     background-position: center;
@@ -97,7 +97,7 @@ main{
     box-shadow: 10px 10px rgba(150, 200, 230);
 }
 .section-block{
-    padding: 20px;
+    padding: 10px;
 }
 .event-image{
     background-color: rgb(150, 200, 230);
@@ -139,7 +139,7 @@ main{
     font-size: 25px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
-    margin: 10px;
+    margin:auto;
 }
 .reviewer-image{
     margin: 10px;
@@ -204,7 +204,7 @@ footer{
     color: snow;
     padding: 10px;
     border-radius: 50%;
-    background-color: rgba(255, 250, 250, 0.5);
+    background-color: rgba(0, 0, 50, 0.3);
 }
 .social-media-text{
     font-family: "Roboto", sans-serif;
@@ -241,18 +241,21 @@ footer{
     margin-bottom: 20px;
 }
 .single-donut-image{
-    min-height: 200px;
+    height: 200px;
     width: 200px;
+    border-radius: 20%;
 }
 .our-donuts-row{
     padding-bottom: 20px;
+    margin: 0 7.5% 0 7.5%;
 }
 .donut-block {
     margin-top: 20px;
+    margin-bottom: 20px;
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 90%
+    width: 100%;
 }
 .donut-name-header{
     margin-top: 5px;
@@ -263,17 +266,17 @@ footer{
 }
 .donut-info {
     display: block;
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
+    padding:0 40px 0 40px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight:400;
     color: slategray;
 }
-.allergan-info{
+.allergen-info{
     display: block;
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
+    padding:0 40px 0 40px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight:400;
@@ -353,13 +356,6 @@ footer{
         color:  snow;
         text-shadow:2px 2px slategray;
     }
-    /* .event-anchor{
-        color: blue;
-    } */
-    .single-donut-image{
-        min-height: 200px;
-        width: 80%; 
-    }
     .reviewer-image{
         margin: 40px 0px 40px 0px;
     }
@@ -371,13 +367,16 @@ footer{
         word-spacing: 2px;
         padding: 20px;
     }
-}
+} 
 @media screen and (max-width:992px){
     .map{
-        height: 450px;
+        height: 400px;
+    }
+    .our-donuts-row{
+        margin: 0;
     }
 }
-@media screen and (min-width:1170px){
+@media screen and (min-width:1200px){
     .hero-video{
         width: 60%;
     }
