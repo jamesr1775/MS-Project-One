@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 /*********************** Colors Section ***********************/
 .header-nav-menu-bg-color{
     background-color:#FFAEBC;
@@ -16,10 +16,13 @@
 .hero-video-bg-color{
     background-color:#FBE7C6;
 }
+.contact-bg-color{
+    background-color:#FBE7C6;
+}
 /*********************** Header Section ***********************/
 header{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Merienda", sans-serif;
+    font-weight: 700;
     padding-top: 0; 
 }
 .company-logo{
@@ -38,10 +41,10 @@ header{
 }
 .nav-link{
     margin: 0;
-    padding:0
+    padding: 5px 0 0 0;    
 }
 #navBarDropDown{
-    font-size: 150%;
+    font-size: 25px;
     min-height: 100px;
     padding-top: 40px;
     list-style-type: none;
@@ -73,7 +76,7 @@ header{
     -webkit-transition: all 1.5s ease-in; 
 }
 
-/*********************** Index Body Section ***********************/
+/*********************** Home Page Body Section ***********************/
 main{
     height: auto;
     width: 100%;
@@ -91,7 +94,7 @@ main{
     background-color: rgba(255, 175, 190, 1);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 15px;
     color: snow;
     box-shadow: 10px 10px rgba(150, 200, 230);
@@ -105,11 +108,8 @@ main{
     width: 100%;
     margin: 20px;
     box-shadow: 10px 10px rgba(255, 175, 190);
-    background-image: url("../images/donuts-icecream-events.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     float: right;
+    object-fit: cover;
 }
 .company-mission-image{
     background-color: rgb(150, 200, 230);
@@ -117,19 +117,16 @@ main{
     width: 100%;
     margin: 20px;
     box-shadow: 10px 10px rgba(255, 175, 190);
-    background-image: url("../images/kitchen-baker.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     float: left;
+    object-fit: cover;
 }
 .event-mission-header{
     color:  rgb(60, 170, 230);
     text-decoration: underline;
     text-shadow:1px 1px slategray;
     font-size: 25px;
-    font-weight: 600;
-    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-family: "Merienda", sans-serif;    
     margin: 5px;
 }
 .review-section-header{
@@ -137,8 +134,8 @@ main{
     text-decoration: underline;
     text-shadow:1px 1px slategray;
     font-size: 25px;
-    font-weight: 600;
-    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-family: "Merienda", sans-serif;
     margin:auto;
 }
 .reviewer-image{
@@ -149,26 +146,7 @@ main{
 }
 .reviewer-quote{
     font-size: 20px;
-    font-weight: 600;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgba(150, 200, 230,1);
-    font-family: "Roboto", sans-serif;
-    color: snow;
-    box-shadow: 10px 10px rgba(255, 175, 190);
-    font-weight: 600;
-    font-family: "Roboto", sans-serif;
-    margin: 10px;
-}
-.reviewer-image{
-    margin: 10px;
-    min-height: 100px;
-    width: 100%;
-    box-shadow: 10px 10px rgba(255, 175, 190);
-}
-.reviewer-quote{
-    font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 10px;
     padding: 10px;
     background-color: rgba(150, 200, 230,1);
@@ -176,7 +154,6 @@ main{
     color: snow;
     box-shadow: 10px 10px rgba(255, 175, 190);
 }
-
 /*********************** Footer Section ***********************/
 footer{
     padding-top:10px;
@@ -207,9 +184,9 @@ footer{
     background-color: rgba(0, 0, 50, 0.3);
 }
 .social-media-text{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: "Merienda", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
     margin: 0;
     color: snow;
     text-align: center;
@@ -259,16 +236,16 @@ footer{
 }
 .donut-name-header{
     margin-top: 5px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Merienda", sans-serif;    
     font-size: 20px;
-    font-weight:400;
+    font-weight:700;
     color: darkslategrey;
 }
 .donut-info {
     display: block;
     width: 100%;
     padding:0 40px 0 40px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;    
     font-size: 20px;
     font-weight:400;
     color: slategray;
@@ -277,7 +254,7 @@ footer{
     display: block;
     width: 100%;
     padding:0 40px 0 40px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;    
     font-size: 15px;
     font-weight:400;
     color: slategray;
@@ -293,6 +270,9 @@ footer{
 /*********************** Contact ***********************/
 .location-header{
     margin-top: 20px;
+    font-size: 22px;
+    font-family: "Merienda", sans-serif;
+    font-weight: 700;
 }
 .location-info{
     font-family: "Roboto", sans-serif;
@@ -346,9 +326,10 @@ footer{
         float: left;
     }
     .info-text-block{
-        background-color: rgba(20, 20, 20, 0.5);
+        background-color: rgba(20, 20, 20, 0.8);
         margin: 0;
-        font-size: 20px;
+        padding: 10px;
+        font-size: 18px;
         color: snow;
         box-shadow:none;
     }
@@ -358,6 +339,9 @@ footer{
     }
     .reviewer-image{
         margin: 40px 0px 40px 0px;
+    }
+    .social-media-text{
+        font-size: 20px;
     }
 }
 @media screen and (min-width:992px){
@@ -369,11 +353,17 @@ footer{
     }
 } 
 @media screen and (max-width:992px){
+    #navBarDropDown{
+        letter-spacing: 0px;
+    }
     .map{
-        height: 400px;
+        height:350px;
     }
     .our-donuts-row{
         margin: 0;
+    }
+    .info-text-block{
+        padding: 10px;
     }
 }
 @media screen and (min-width:1200px){
