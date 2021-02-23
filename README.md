@@ -1,37 +1,38 @@
 # Donut Disturb
-
 A Donut Store located in Dublin City Centre whose goal is to create and sell the best, most delicious desert in Dublin.
 The website is deployed and can be viewed here [Donut Disturb](https://jamesr1775.github.io/MS-Project-One/).
-## UX
 
+## UX
 ### Project Goals
-* The goal of this project is to establish a brand by building a website for a Donut Store in Dublin City Centre.
+* The goal of this project is to establish a brand by building a website for a donut store in Dublin city centre.
 * The website will provide information about the stores products, location and contact details.
 * The website will provide the visitors with social media links to receive news/offers.
 * This Website will be:
     * Easy to navigate on a desktop, tablet and smartphone.
     * Contain pictures of all our Products, their prices and allergens.
     * Provide the visitor contact and location information via phone, email, forms and maps.
+
 ### Business Goals
-* There are not many Donut Stores in Dublin  but they're becoming extremely popular so thats where the Donut Disturb Store comes in.
+* There are not many donut stores in Dublin but they're becoming extremely popular so thats where the Donut Disturb Store comes in.
 * This website will provide an online presence to the Store.
 * This website will build brand awareness.
 * This website will showcase all the amazing, delicious products we sell and their prices.
-* Grow a brand and reputation and create a chain of stores throughout Dublin City Centre and large shopping malls.
+* Grow a brand and reputation and create a chain of stores throughout Dublin city centre and large shopping malls.
 
 ### Customer Goals
 * Allow the customer to see our range of products, prices.
-* Allow customers with allergys to see a products allergens and in general preparation and cooking steps.
-* offer a range of products that can suit the majority of potential customers.
+* Allow customers with allergys to see a products allergens.
+* Offer a range of products that can suit the majority of potential customers tastes.
 
 ### User Stories
-1. As a potential Customer that loves Donuts/ Pastries, I would like to see Current Donuts and prices, so that I can know what to expect in terms of price and flavours when I visit the store.
-2. As a new visitor, I would like to seemlessly navigate the website and browse your Donut products, contact page etc.,  so I may find what I am looking for efficiently.
+1. As a potential Customer that loves donuts/pastries, I would like to see current donuts and prices, so that I can know what to expect in terms of price and flavours when I visit the store.
+2. As a new visitor, I would like to seemlessly navigate the website and browse your donut products, contact page etc.,  so I may find what I am looking for efficiently.
 3. As a potential Customer, I want to be able to find your social media, so I can know more about the company news and upcoming events or offers. 
 4. As a potential Customer, I want to know the allergens of your products, so I may know if they are certain allergy friendly products (e.g gluten, lactose, nuts etc). 
 5. As a potential Customer, I want to be able to find the location of your stores, so I may visit in person.
-6. As a potential Customer, I want to be able to contact the company, so I may request an item or ask questions like customizable products (e.g company logo or birthdays).
-7. As a Job seeker, I want find information to contact/apply for a job at the company, so I may get hired. 
+6. As a potential Customer, I want to be able to contact the company, so I may request an item or ask questions such as like customizable products (e.g company logo or birthdays).
+7. As a Job seeker, I want find information to contact/apply for a job at the company, so I may get hired.
+
 ### Wireframe mockups: 
 - [Home](https://github.com/jamesr1775/MS-Project-One/blob/master/assets/wireframes/Home.png)
 - [Our Donuts Gallery](https://github.com/jamesr1775/MS-Project-One/blob/master/assets/wireframes/Our_Donuts.png)
@@ -42,21 +43,24 @@ The website is deployed and can be viewed here [Donut Disturb](https://jamesr177
 2. Each page has a **footer** with **copyright information** and **social media icons** linking to the stores social media pages. ​
 3. Every page features its own **hero image** at the top, detailing a the cafe and or products that we sell.
 4. The images and how they are displayed will be **responsive** for different **screen resolutions**.
+
 ### Home
-    1. A Hero image of the Shop will be under the navigation bar.
-    2. There will be information on the companys passion and skills along with pictures to compliment our products.
-    3. The Home page will contain recent customer reviews.
-    4. There will be a disclaimer about the allergens we use and our kitchen standards particularly for allergies.
+1. A Hero image of the Shop will be under the navigation bar.
+2. There will be information on the companys passion and skills along with pictures to compliment our products.
+3. The Home page will contain recent customer reviews.
+4. There will be a disclaimer about the allergens we use and our kitchen standards particularly for allergies.
+
 ### Our Donuts Gallery
-    1. The gallery page will contain rows and columns of images of all our products.
-    2. The allergies and pricing information will be displayed next to the  relevant product.
-    3. The gallery will be responsive to different screen resolutions and clearly show product information such as allergies and pricing clearly particularly on smaller screens. 
+1. The gallery page will contain rows and columns of images of all our products.
+2. The allergies and pricing information will be displayed next to the  relevant product.
+3. The gallery will be responsive to different screen resolutions and clearly show product information such as allergies and pricing clearly particularly on smaller screens. 
+
 ### Contact Us    
-    1. The contact page has a form to contact us that allows users to reach us via email. 
-    2. This page will provide the store address alongside a map widget that shows our location.
-    3. It will provide an business email address and phone number to use alternatively.
-    4. The page will also provide an email address for career opportunities.  
-    5. There will be a section with the store opening times for customers.
+1. The contact page has a form to contact us that allows users to reach us via email. 
+2. This page will provide the store address alongside a map widget that shows our location.
+3. It will provide an business email address and phone number to use alternatively.
+4. The page will also provide an email address for career opportunities.  
+5. There will be a section with the store opening times for customers.
 
 ### Existing Features
 - NavBar- The navbar is responsive and allows the user to navigate the website intuitively. The company logo is also present and can be used to bring the user back to the home page if clicked.
@@ -74,7 +78,6 @@ The website is deployed and can be viewed here [Donut Disturb](https://jamesr177
 - The hero image home screen animation should wait for the image to load first.
 
 ## Technologies Used
-
 The Technologies used in this project are the following:
 
 1. [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
@@ -94,12 +97,10 @@ The Technologies used in this project are the following:
 7. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 
-
 ## Testing
 The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML validation and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) to validate the CSS were used to check for errors in the source code.
 
 ### Testing User Stories
-
 1. As a potential Customer that loves Donuts/ Pastries, I would like to see Current Donuts and prices, so that I can know what to expect in terms of price and flavours when I visit the store.
     * In our responsive navigation bar there is the our donuts button that brings our customer to our donuts menu.
     * On the our donuts page the user is presented with images and descriptions of all our current donuts that we offer in the store.
@@ -123,7 +124,6 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
     * A careers email address and notice that we are hiring is provided at the bottom of the contact page.
 
 ### Manual Testing
-
 #### Home Page 
 1. The Navigation Bar/ Header:
     * The responsiveness is tested by varying the screen sizes and ensuring the nav links text don't fold or become cramped.
@@ -134,18 +134,20 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
     * Click the logo and each webpage making sure the user is brought back to the home screen.
 2. Hero image:
     * On the home page the hero image is located below the navbar.
-    * Check the hero image stays tightly under the nav bar.
+    * Check the hero image stays tightly under the nav bar across all devices.
     * Verify that the image quality remains unstretched and not blurry on various screen resolutions.
-    * Make sure the core store counter and donuts are a key focus on various  screens sizes as the image modified/adjusted to fit for different devices. 
+    * Make sure the store counter and donuts are a key focus on various  screens sizes as the image is modified/adjusted to fit for different device screens. 
 3. Company mission & events section:
     * Test various screen sizes to ensure the text and images resize without being cramped or the images are distorted. 
     * Make sure the click here button brings the user to the contact page.
     * On mobile devices the text should overlay on top of the images and be readable.
+    * Inspect that the images have alt text on tablets, laptops and desktops (images become background images on SmartPhones and cannot have alt text).
 4. User reviews:
     * Test various screen sizes to ensure the text and images resize without being cramped or the images are distorted. 
     * Make sure the click here button brings the user to the contact page.
     * On desktops the user review blocks are in the same horizontal row.
     * On tablets and mobile the review blocks are on different rows.
+    * Inspect that the images have alt text on tablets, laptops and desktops (images become background images on SmartPhones  and cannot have alt text).
     * On mobile devices the images of the reviewers disappear.
 5. Footer:
     * Check that each social media icon will open up the corresponding social media website in a new tab.
@@ -155,21 +157,22 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
 #### Our Donuts Page
 1. The Navigation Bar/ Header:
     * Repeat verification steps done for navbar on Home page.
-    * Make sure the html is identical to that of the home page.
+    * Make sure the html is identical to that of the home page besides meta data.
 2. Hero image/video:
     * On the our donuts page the hero image/video is located below the navbar.
     * Check the hero image/video stays tightly under the nav bar.
     * The hero image/video should be full width on tablets and smart phone but 60% on desktops and tablets to avoid a very large scroll to get to the donuts menu.
     * Verify that the image/video quality remains unstretched and not blurry on various screen resolutions.
-    * Test that the video autoplays to entice the user to a box of donuts and doe's not loop or play audio.
+    * Test that the video autoplays and doe's not loop or play audio.
     * The video controls were disabled as the video control frame took away from the aesthetics.
     * Make sure when the video is finished the opened box of donuts remain froze like an image.
 3. Donut menu section:
     * The donut images should be clear and not distorted across all devices.
     * The text should be clear and easy to read.
-    * One desktops and laptops there is 3 donuts on each row.
-    * On Tablets there are 2 donuts on each row.
-    * On SmartPhones there is 1 donut on each row.
+    * Vary the screen resolutions to test
+        * On desktops and laptops there is 3 donuts on each row.
+        * For Tablets there are 2 donuts on each row.
+        * On SmartPhones there is 1 donut on each row.
     * Test the responsiveness of the page by varying the screen resolution to see that the text for the donut description doen't fold or wrap and look cramped.
 5. Footer:
     * Repeat verification steps done for navbar on Home page.
@@ -178,21 +181,21 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
 #### Contact Page
 1. The Navigation Bar/ Header:
     * Repeat verification steps done for navbar on Home page.
-    * Make sure the html is identical to that of the home page.
+    * Make sure the html is identical to that of the home page besides meta data.
 2. Store opening times, location and map:
     * The store opening times and location information is on the left of the map on desktops, laptops and tablets.
     * The map widget takes up just over two thirds of the row on laptops, desktops and tablets.
     * Map widget takes up an entire row on smart phones, and is below the store open times and location information.
     * The get in touch form fields are all required and should not allow the send message button to work without them being filled in.
-    * On desktops and laptops the form takes up almost two thirds and their is an image in vertically aligned with email address field.
+    * On desktops and laptops the form takes up almost two thirds and there is an image vertically aligned with email address field box.
     * Check the responsiveness of the image and form by changing the screen resolution and make sure the image and form are aligned.
     * Image next to the form only appears for laptops and desktops and disappears for tablets and smart phones.
     * The send message form takes up a separate row on tablets and smart phones.
     * The location information and location pin on the map are the same.
 3. Contact details, Careers email section:
     * The contact information and the careers section are on the same row for desktops, laptops and tablets
-    * On desktops and laptops they are closer together for better visual.
-    * On smart phones they are stacked on separate rows on top of each other under the map widget..
+    * On desktops and laptops they are closer together for a better visual.
+    * On smart phones they are stacked on separate rows on top of each other under the map widget.
 4. Footer:
     * Repeat verification steps done for navbar on Home page.
     * Make sure the html is identical to that of the home page.
@@ -206,7 +209,6 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
 Currently no known bugs.
 
 ## Deployment
-
 ### GitHub Pages
 1. Go to [GitHub](https://github.com). 
 2. Click on your projects repository and then click the settings tab.
@@ -219,7 +221,6 @@ Currently no known bugs.
 2. In the top right click fork button which will create a copy of the repo into your account.
 
 ## Credits
-
 ### Media
 - The photos used in this site were obtained from ...
 - [Free Logo Design](https://www.freelogodesign.org/)   -   Created the 3 Donut Disturb Logo.
@@ -231,6 +232,7 @@ Currently no known bugs.
 - [Pixabay](https://pixabay.com/photos/donuts-pastries-kringel-cake-candy-4633040/) - Photo by Alexas_Fotos from Pixabay.
 - [Pexels](https://www.pexels.com/video/food-hands-sugar-colorful-4686906/)  - Video by cottonbro from Pexels.
 - [Pexels](https://www.pexels.com/photo/ballpoint-pen-beside-doughnut-1422032/)  - Photo by Jess Bailey Designs from Pexels.
+- [unsplash](https://unsplash.com/photos/8BNGxSAQd6M)  -   Photo by Lore Schodts.
 - [Canva](https://www.canva.com/colors/color-palettes/pastel-dreams/)   - Color theme idea for the website.
 
 ### Acknowledgements
