@@ -165,7 +165,7 @@ footer{
     padding-top: 10px;
     text-align: center;
     float: left;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.4);
     position: relative;
     bottom: 0;
 }
@@ -237,7 +237,7 @@ footer{
 .donut-name-header{
     margin-top: 5px;
     font-family: "Merienda", sans-serif;    
-    font-size: 20px;
+    font-size: 22px;
     font-weight:700;
     color: darkslategrey;
 }
@@ -268,20 +268,52 @@ footer{
 }
 
 /*********************** Contact ***********************/
-.location-header{
+.contact-page-header{
     margin-top: 20px;
+    text-decoration: underline;
     font-size: 22px;
     font-family: "Merienda", sans-serif;
     font-weight: 700;
+    color: darkslategrey;
 }
 .location-info{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     text-align: center;
+    color: darkslategrey;
 }
 .map{
     height: 350px;
     width: 100%;
+}
+
+.contact-image{
+    margin: 55px 0 25px 0;
+    background-image: url("../images/donut-and-pen.jpg");
+    /* padding: 20px 20px 20px 0; */
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    z-index: 2;
+    box-shadow: 10px 10px rgba(255, 175, 190);
+    border-radius: 10%;
+}
+.contact-img-text{
+    margin-top: 10%;
+    margin-right: 30%;
+    padding: 10px;
+    font-family: "Merienda", sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+}
+.contact-information{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkslategrey;
 }
 
 /*********************** Media Queries ***********************/
@@ -357,7 +389,7 @@ footer{
         letter-spacing: 0px;
     }
     .map{
-        height:350px;
+        height:400px;
     }
     .our-donuts-row{
         margin: 0;
@@ -369,5 +401,14 @@ footer{
 @media screen and (min-width:1200px){
     .hero-video{
         width: 60%;
+    }
+}
+
+@media screen and (max-width:1254px){
+    .contact-image{
+        margin: 80px 0 25px 0;
+    }
+    .contact-img-text{
+        margin-right: 25%;
     }
 }
