@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
 /*********************** Colors Section ***********************/
 .header-nav-menu-bg-color{
-    background-color:#FFAEBC;
+    background-color:#fda2b0;
 }
 .footer-menu-bg-color{
-    background-color: #96c8e6;
+    background-color: #6fb9e7;
 }
 .home-page-bg-color{
     background-color:#FBE7C6;
@@ -19,6 +20,7 @@
 .contact-bg-color{
     background-color:#FBE7C6;
 }
+
 /*********************** Header Section ***********************/
 header{
     font-family: "Merienda", sans-serif;
@@ -82,46 +84,46 @@ main{
     width: 100%;
 }
 .food-prep{
-    background-color: rgb(150, 200, 230);
+    background-color: #6fb9e7;
     height: 250px;
     width: 100%;
     margin: 20px;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     background-position: center;
     background-repeat: no-repeat;
 }
 .info-text-block{
-    background-color: rgba(255, 175, 190, 1);
+    background-color: #fda2b0;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin: 15px;
     color: snow;
-    box-shadow: 10px 10px rgba(150, 200, 230);
+    box-shadow: 10px 10px #6fb9e7;
 }
 .section-block{
     padding: 10px;
 }
 .event-image{
-    background-color: rgb(150, 200, 230);
+    background-color: #6fb9e7;
     height: 250px;
     width: 100%;
     margin: 20px;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     float: right;
     object-fit: cover;
 }
 .company-mission-image{
-    background-color: rgb(150, 200, 230);
+    background-color: #6fb9e7;
     height: 250px;
     width: 100%;
     margin: 20px;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     float: left;
     object-fit: cover;
 }
 .event-mission-header{
-    color:  rgb(60, 170, 230);
+    color:  #6fb9e7;
     text-decoration: underline;
     text-shadow:1px 1px slategray;
     font-size: 25px;
@@ -130,7 +132,7 @@ main{
     margin: 5px;
 }
 .review-section-header{
-    color:  rgb(60, 170, 230);
+    color:  #6fb9e7;
     text-decoration: underline;
     text-shadow:1px 1px slategray;
     font-size: 25px;
@@ -142,18 +144,19 @@ main{
     margin: 10px;
     min-height: 100px;
     width: 100%;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
 }
 .reviewer-quote{
     font-size: 20px;
     font-weight: 700;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(150, 200, 230,1);
+    background-color: #6fb9e7;
     font-family: "Roboto", sans-serif;
     color: snow;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
 }
+
 /*********************** Footer Section ***********************/
 footer{
     padding-top:10px;
@@ -165,7 +168,7 @@ footer{
     padding-top: 10px;
     text-align: center;
     float: left;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.4);
     position: relative;
     bottom: 0;
 }
@@ -237,7 +240,7 @@ footer{
 .donut-name-header{
     margin-top: 5px;
     font-family: "Merienda", sans-serif;    
-    font-size: 20px;
+    font-size: 22px;
     font-weight:700;
     color: darkslategrey;
 }
@@ -268,20 +271,50 @@ footer{
 }
 
 /*********************** Contact ***********************/
-.location-header{
+.contact-page-header{
     margin-top: 20px;
+    text-decoration: underline;
     font-size: 22px;
     font-family: "Merienda", sans-serif;
     font-weight: 700;
+    color: darkslategrey;
 }
 .location-info{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     text-align: center;
+    color: darkslategrey;
 }
 .map{
     height: 350px;
     width: 100%;
+}
+.contact-image{
+    margin: 55px 0 25px 0;
+    background-image: url("../images/donut-and-pen.jpg");
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    z-index: 2;
+    box-shadow: 10px 10px #fda2b0;
+    border-radius: 10%;
+}
+.contact-img-text{
+    margin-top: 10%;
+    margin-right: 30%;
+    padding: 10px;
+    font-family: "Merienda", sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+}
+.contact-information{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkslategrey;
 }
 
 /*********************** Media Queries ***********************/
@@ -304,7 +337,7 @@ footer{
         padding-left: 10px;
     }
     .mission-block-mobile{
-        background-color: rgb(150, 200, 230);
+        background-color: #6fb9e7;
         height: 250px;
         width: 100%;
         margin: 10px 0px 10px;
@@ -357,7 +390,7 @@ footer{
         letter-spacing: 0px;
     }
     .map{
-        height:350px;
+        height:400px;
     }
     .our-donuts-row{
         margin: 0;
@@ -369,5 +402,14 @@ footer{
 @media screen and (min-width:1200px){
     .hero-video{
         width: 60%;
+    }
+}
+
+@media screen and (max-width:1254px){
+    .contact-image{
+        margin: 80px 0 25px 0;
+    }
+    .contact-img-text{
+        margin-right: 25%;
     }
 }
