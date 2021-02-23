@@ -3,10 +3,10 @@
 
 /*********************** Colors Section ***********************/
 .header-nav-menu-bg-color{
-    background-color:#FFAEBC;
+    background-color:#fda2b0;
 }
 .footer-menu-bg-color{
-    background-color: #96c8e6;
+    background-color: #6fb9e7;
 }
 .home-page-bg-color{
     background-color:#FBE7C6;
@@ -84,46 +84,46 @@ main{
     width: 100%;
 }
 .food-prep{
-    background-color: rgb(150, 200, 230);
+    background-color: #6fb9e7;
     height: 250px;
     width: 100%;
     margin: 20px;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     background-position: center;
     background-repeat: no-repeat;
 }
 .info-text-block{
-    background-color: rgba(255, 175, 190, 1);
+    background-color: #fda2b0;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin: 15px;
     color: snow;
-    box-shadow: 10px 10px rgba(150, 200, 230);
+    box-shadow: 10px 10px #6fb9e7;
 }
 .section-block{
     padding: 10px;
 }
 .event-image{
-    background-color: rgb(150, 200, 230);
+    background-color: #6fb9e7;
     height: 250px;
     width: 100%;
     margin: 20px;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     float: right;
     object-fit: cover;
 }
 .company-mission-image{
-    background-color: rgb(150, 200, 230);
+    background-color: #6fb9e7;
     height: 250px;
     width: 100%;
     margin: 20px;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     float: left;
     object-fit: cover;
 }
 .event-mission-header{
-    color:  rgb(60, 170, 230);
+    color:  #6fb9e7;
     text-decoration: underline;
     text-shadow:1px 1px slategray;
     font-size: 25px;
@@ -132,7 +132,7 @@ main{
     margin: 5px;
 }
 .review-section-header{
-    color:  rgb(60, 170, 230);
+    color:  #6fb9e7;
     text-decoration: underline;
     text-shadow:1px 1px slategray;
     font-size: 25px;
@@ -144,17 +144,17 @@ main{
     margin: 10px;
     min-height: 100px;
     width: 100%;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
 }
 .reviewer-quote{
     font-size: 20px;
     font-weight: 700;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(150, 200, 230,1);
+    background-color: #6fb9e7;
     font-family: "Roboto", sans-serif;
     color: snow;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
 }
 
 /*********************** Footer Section ***********************/
@@ -299,7 +299,7 @@ footer{
     background-size: cover;
     float: left;
     z-index: 2;
-    box-shadow: 10px 10px rgba(255, 175, 190);
+    box-shadow: 10px 10px #fda2b0;
     border-radius: 10%;
 }
 .contact-img-text{
@@ -337,7 +337,7 @@ footer{
         padding-left: 10px;
     }
     .mission-block-mobile{
-        background-color: rgb(150, 200, 230);
+        background-color: #6fb9e7;
         height: 250px;
         width: 100%;
         margin: 10px 0px 10px;
