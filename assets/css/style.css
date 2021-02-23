@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
 /*********************** Colors Section ***********************/
 .header-nav-menu-bg-color{
     background-color:#FFAEBC;
@@ -19,6 +20,7 @@
 .contact-bg-color{
     background-color:#FBE7C6;
 }
+
 /*********************** Header Section ***********************/
 header{
     font-family: "Merienda", sans-serif;
@@ -154,6 +156,7 @@ main{
     color: snow;
     box-shadow: 10px 10px rgba(255, 175, 190);
 }
+
 /*********************** Footer Section ***********************/
 footer{
     padding-top:10px;
@@ -286,11 +289,9 @@ footer{
     height: 350px;
     width: 100%;
 }
-
 .contact-image{
     margin: 55px 0 25px 0;
     background-image: url("../images/donut-and-pen.jpg");
-    /* padding: 20px 20px 20px 0; */
     height: 200px;
     width: 100%;
     background-position: center;
