@@ -141,7 +141,6 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
     * Check the hero image stays tightly under the nav bar across all devices and is the full width of the screen.
     * Verify that the image quality remains unstretched and not blurry on various screen resolutions.
     * Make sure the store counter and donuts are a key focus on various screens sizes as the image is modified/adjusted to fit for different device screens. 
-    * Check that the alt text is present for the hero image by inspecting the element.
 3. Company mission & events section:
     * Test various screen sizes to ensure the text and images resize without being cramped and that the images are not becoming distorted. 
     * Make sure the click here button brings the user to the contact page.
@@ -166,7 +165,7 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
 2. Hero image/video:
     * On the our donuts page the hero image/video is located below the navbar.
     * Check the hero image/video stays tightly under the nav bar.
-    * The hero image/video should be full width on tablets and smart phone but 60% on desktops and tablets to avoid a very large scroll to get to the donuts menu.
+    * The hero image/video should be full width on tablets and smart phone but 60% on desktops above 1200px to avoid a very large scroll to get to the donuts menu.
     * Verify that the image/video quality remains unstretched/not blurry on various screen resolutions.
     * Test that the video autoplays and does'nt loop or play audio.
     * The video controls were disabled as the video control frame took away from the aesthetics of the hero image/video.
@@ -190,7 +189,7 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
 2. Store opening times, location and map:
     * The store opening times and location information is to the left of the map on desktops, laptops and tablets.
     * The map widget takes up just over two thirds of the row on laptops, desktops and tablets.
-    * On smart phones the map widget takes up an entire row, and is below the store open times and location information.
+    * On smart phones and smaller screens (<767px) the map widget takes up an entire row, and is below the store open times and location information.
     * The get in touch form fields are all required and should not allow the send message button to work without them being filled in.
     * On desktops and laptops the form takes up almost two thirds and there is an image vertically aligned with email address field box.
     * Check the responsiveness of the image and form by changing the screen resolution and make sure the image and form are aligned.
