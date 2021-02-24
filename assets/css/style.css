@@ -3,29 +3,29 @@
 
 /*********************** Colors Section ***********************/
 .header-nav-menu-bg-color{
-    background-color:#fda2b0;
+    background-color: #fda2b0;
 }
 .footer-menu-bg-color{
     background-color: #6fb9e7;
 }
 .home-page-bg-color{
-    background-color:#FBE7C6;
+    background-color: #FBE7C6;
 }
 .our-donuts-bg-color{
-    background-color:#FBE7C6;
+    background-color: #FBE7C6;
 }
 .hero-video-bg-color{
-    background-color:#FBE7C6;
+    background-color: #FBE7C6;
 }
 .contact-bg-color{
-    background-color:#FBE7C6;
+    background-color: #FBE7C6;
 }
 
 /*********************** Header Section ***********************/
 header{
     font-family: "Merienda", sans-serif;
     font-weight: 700;
-    padding-top: 0; 
+    padding-top: 0;
 }
 .company-logo{
     background: url("../images/donut-disturb-logo.png");
@@ -43,7 +43,7 @@ header{
 }
 .nav-link{
     margin: 0;
-    padding: 5px 0 0 0;    
+    padding: 5px 0 0 0;
 }
 #navBarDropDown{
     font-size: 25px;
@@ -63,7 +63,7 @@ header{
 #navBarDropDown span{
     padding-left: 5px;
     padding-right: 5px;
-    color:ghostwhite;
+    color: ghostwhite;
     float: right;
 }
 .hero-image{
@@ -79,10 +79,7 @@ header{
 }
 
 /*********************** Home Page Body Section ***********************/
-main{
-    height: auto;
-    width: 100%;
-}
+
 .food-prep{
     background-color: #6fb9e7;
     height: 250px;
@@ -128,7 +125,7 @@ main{
     text-shadow:1px 1px slategray;
     font-size: 25px;
     font-weight: 700;
-    font-family: "Merienda", sans-serif;    
+    font-family: "Merienda", sans-serif;
     margin: 5px;
 }
 .review-section-header{
@@ -138,7 +135,7 @@ main{
     font-size: 25px;
     font-weight: 700;
     font-family: "Merienda", sans-serif;
-    margin:auto;
+    margin: auto;
 }
 .reviewer-image{
     margin: 10px;
@@ -159,7 +156,7 @@ main{
 
 /*********************** Footer Section ***********************/
 footer{
-    padding-top:10px;
+    padding-top: 10px;
 }
 .social{
     text-align: center;
@@ -206,6 +203,10 @@ footer{
 .text-center{
     text-align: center;
 }
+main{
+    height: auto;
+    width: 100%;
+}
 
 /*********************** Our Donuts ***********************/
 .our-donuts-container{
@@ -229,7 +230,7 @@ footer{
     padding-bottom: 20px;
     margin: 0 7.5% 0 7.5%;
 }
-.donut-block {
+.donut-block{
     margin-top: 20px;
     margin-bottom: 20px;
     vertical-align: top;
@@ -237,20 +238,23 @@ footer{
     text-align: center;
     width: 100%;
 }
+.donut-block p{
+    margin: 0;
+}
 .donut-name-header{
     margin-top: 5px;
-    font-family: "Merienda", sans-serif;    
+    font-family: "Merienda", sans-serif;
     font-size: 22px;
-    font-weight:700;
+    font-weight: 700;
     color: darkslategrey;
 }
-.donut-info {
+.donut-info{
     display: block;
     width: 100%;
     padding:0 5px 0 5px;
-    font-family: "Roboto", sans-serif;    
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-weight:400;
+    font-weight: 400;
     color: slategray;
 }
 .allergen-info{
@@ -259,7 +263,7 @@ footer{
     padding:0 40px 0 40px;
     font-family: "Roboto", sans-serif;    
     font-size: 15px;
-    font-weight:400;
+    font-weight: 400;
     color: slategray;
 }
 .horizontal-divider{
@@ -364,11 +368,11 @@ footer{
         padding: 10px;
         font-size: 18px;
         color: snow;
-        box-shadow:none;
+        box-shadow: none;
     }
     .event-mission-header{
-        color:  snow;
-        text-shadow:2px 2px slategray;
+        color: snow;
+        text-shadow: 2px 2px slategray;
     }
     .reviewer-image{
         margin: 40px 0px 40px 0px;
@@ -391,7 +395,7 @@ footer{
         font-size: 20px;
     }
     .map{
-        height:400px;
+        height: 400px;
     }
     .our-donuts-row{
         margin: 0;
@@ -415,7 +419,6 @@ footer{
         width: 60%;
     }
 }
-
 @media screen and (max-width:1254px){
     .contact-image{
         margin: 80px 0 25px 0;
