@@ -206,7 +206,7 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
     * Make sure the footer html is identical to that of the home page.
 
 #### Furthur Testing
-1. Used Chrome, Firefox and Internet Explorer to test the site.
+1. Used Chrome and Firefox to test the site.
 2. Tested the website on a physical desktop, smartphone and tablet.
 3. Asked friends and family to visit the site and give feedback of bugs, visual discrepancies.
 
