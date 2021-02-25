@@ -27,6 +27,10 @@ header{
     font-weight: 700;
     padding-top: 0;
 }
+.hero-container{
+    padding-left: 0;
+    padding-right: 0;
+}
 .company-logo{
     background: url("../images/donut-disturb-logo.png");
     min-height: 100px;
@@ -99,8 +103,10 @@ header{
     box-shadow: 10px 10px #6fb9e7;
 }
 .section-block{
-    padding: 10px;
-}
+    padding-top: 10px;
+    padding-bottom: 10px;
+    p
+}    
 .event-image{
     background-color: #6fb9e7;
     height: 250px;
