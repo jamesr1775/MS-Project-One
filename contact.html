@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Donut Disturb | Contact</title>
 </head>
+
 <body>
+
+    <!-- Header Nav Bar and Company Logo -->
     <header class="header-nav-menu-bg-color">
         <nav id="header-nav-bar" class="navbar navbar-light navbar-expand-sm">
             <a href="index.html" class="company-logo"></a>
@@ -34,7 +38,11 @@
             </div>
         </nav>
     </header>
+
+    <!-- Main Content Container -->
     <main>
+
+        <!-- Google Map Widget / Store Information -->
         <section class="container-fluid contact-bg-color">
             <div class="row">
                 <div class="col-md-5 col-xs-12">
@@ -52,6 +60,8 @@
                 <div  class="horizontal-divider"><hr/></div>
             </div>
         </section>
+
+        <!-- Contact Us Form -->
         <section class="container-fluid contact-bg-color">
             <div class="row form-div">
                 <div class="col-lg-1"></div>   
@@ -59,10 +69,10 @@
                     <div class="row">
                         <h3 class="uppercase text-center contact-page-header">Get in touch below for orders and business enquiries</h3>
                     </div>
-                    <form>
+                    <form id="my-form">
                         <div class="form-group row">
                             <div class="col-12">
-                                <input type="text" class="form-control" id="staticEmail"  placeholder="email@example.com" required>
+                                <input type="email" class="form-control" id="email-address-box"  placeholder="email@example.com" required>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -72,11 +82,11 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-12">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="message" required></textarea>
+                                <textarea class="form-control" id="email-message-content" rows="5" placeholder="message" required></textarea>
                             </div>
                         </div>
                         <div class="col-12 text-center">
-                            <button type="submit" class="btn btn-primary mb-2 mt-2">Send Message</button>
+                            <button id="send-message" type="submit" class="btn btn-primary mb-2 mt-2">Send Message</button>
                         </div>
                     </form>
                 </div>
@@ -88,6 +98,8 @@
                 <div  class="horizontal-divider"><hr/></div>
             </div>
         </section>
+
+        <!-- Contact Information / Careers -->
         <section class="container-fluid contact-bg-color">
             <div class="row">
                 <div class="col-2 d-none d-lg-block"></div>
@@ -103,6 +115,8 @@
             </div>
         </section>
     </main>
+    
+    <!-- Footer Social Links & Copyright -->
     <footer class="container-fluid footer-menu-bg-color">
         <div class="row">
             <div class="col-12 social">
@@ -129,8 +143,36 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="message-sent" tabindex="-1" role="dialog" aria-labelledby="message-sent" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title reply-header">Message Sent!</h5>
+                </div>
+                <div class="modal-body">
+                    <p class="reply-message">We will get in touch with you shortly!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $("#my-form").on('submit', function(){
+            event.preventDefault();
+            $('#message-sent').modal('show');
+            $('#my-form')[0].reset();
+        })
+    </script>
+
 </body>
+
 </html>
+

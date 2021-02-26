@@ -51,7 +51,6 @@ header{
 }
 #navBarDropDown{
     font-size: 25px;
-    min-height: 100px;
     padding-top: 40px;
     list-style-type: none;
     letter-spacing: 2px;
@@ -68,11 +67,11 @@ header{
     padding-left: 5px;
     padding-right: 5px;
     color: ghostwhite;
-    float: right;
 }
 .hero-image{
     min-height: 400px;
     width: 100%;
+    display: block;
     background-image: url("../images/donut-store-counter.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +82,6 @@ header{
 }
 
 /*********************** Home Page Body Section ***********************/
-
 .food-prep{
     background-color: #6fb9e7;
     height: 250px;
@@ -105,8 +103,7 @@ header{
 .section-block{
     padding-top: 10px;
     padding-bottom: 10px;
- 
-}    
+}
 .event-image{
     background-color: #6fb9e7;
     height: 250px;
@@ -326,8 +323,16 @@ main{
     text-align: center;
     color: darkslategrey;
 }
+.reply-header{
+    font-family:"Merienda", sans-serif;
+}
+.reply-message{
+    font-family:"Roboto", sans-serif;
+}
 
 /*********************** Media Queries ***********************/
+
+/*********** Smart Phones Only ***********/
 @media screen and (max-width:575px){
     #navBarDropDown{
         padding-top: 5px;
@@ -387,6 +392,8 @@ main{
         font-size: 20px;
     }
 }
+
+/*********** Smart Phones & Tablets ***********/
 @media screen and (min-width:992px){
     .info-text-block{
         min-height: 200px;
@@ -395,6 +402,8 @@ main{
         padding: 20px;
     }
 } 
+
+/*********** Laptops & Desktops ***********/
 @media screen and (max-width:992px){
     #navBarDropDown{
         letter-spacing: 0px;
@@ -420,6 +429,8 @@ main{
         width: 95%;
     }
 }
+
+/*********** Misc Screen Resolutions Fixes ***********/
 @media screen and (min-width:1200px){
     .hero-video{
         width: 60%;
