@@ -179,7 +179,7 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
         * On SmartPhones there is 1 donut on each row.
     * Test the responsiveness of the page by varying the screen resolution to see that the text for the donut description doesn't fold or wrap and look cramped.
 5. Footer:
-    * Repeat verification steps done for navbar on home page footer section above.
+    * Repeat verification steps done for the home page footer section above.
     * Make sure the footer html is identical to that of the home page.
 
 #### Contact Page
@@ -204,7 +204,7 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) for HTML v
     * On desktops and laptops they are closer together for a better visual.
     * On smart phones they are stacked on separate rows on top of each other under the map widget.
 5. Footer:
-    * Repeat verification steps done for navbar on home page footer section above.
+    * Repeat verification steps done for the home page footer section above.
     * Make sure the footer html is identical to that of the home page.
 
 #### Further Testing
